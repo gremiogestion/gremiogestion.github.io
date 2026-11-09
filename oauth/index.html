@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Gremio: vuelve a la app</title>
+<style>
+  :root { --bg:#ffffff; --fg:#1d1d1f; --muted:#5f6368; --accent:#1a73e8; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#121212; --fg:#e8eaed; --muted:#9aa0a6; --accent:#8ab4f8; }
+  }
+  body { margin:0; background:var(--bg); color:var(--fg);
+         font:16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width:680px; margin:0 auto; padding:48px 16px; }
+  h1 { font-size:1.6rem; margin:0 0 8px; }
+  p { color:var(--muted); }
+  a { color:var(--accent); }
+</style>
+</head>
+<body>
+<main>
+  <h1>Vuelve a Gremio</h1>
+  <p>Esta página es el regreso de Google a la app de Gremio después de iniciar sesión. Normalmente la app se abre sola y no llegas a verla.</p>
+  <p>Si estás viendo esto, cierra esta pestaña, vuelve a Gremio y pulsa otra vez «Conectar con Google». Si se repite, actualiza la app a la última versión.</p>
+  <p><a href="../">Gremio</a></p>
+</main>
+<script>
+  // Nada de lo que trae la dirección se queda a la vista ni en el historial.
+  if (location.search || location.hash) history.replaceState(null, "", location.pathname);
+</script>
+</body>
+</html>

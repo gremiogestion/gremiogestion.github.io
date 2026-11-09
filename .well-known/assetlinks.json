@@ -1,0 +1,13 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "app.gremio",
+      "sha256_cert_fingerprints": [
+        "A2:50:F7:25:F8:56:39:B3:50:EB:3C:A5:31:54:D5:6A:29:A7:EC:72:69:46:32:88:BE:EF:00:FF:D6:8D:B7:1D",
+        "02:AC:28:7A:42:E3:D3:5B:09:A5:4E:07:39:1F:F9:59:E2:5D:17:2A:67:A8:06:31:DC:D4:06:56:7D:99:0A:F6"
+      ]
+    }
+  }
+]
